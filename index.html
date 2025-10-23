@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman Hatami - NeuroAI Researcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: #d0d0d0;
+            font-family: 'Courier New', monospace;
+            line-height: 1.7;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            color: #00ff00;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            margin-top: 15px;
+        }
+
+        .contact a {
+            color: #00aaff;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #00ff00;
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #ff6b6b;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-left: 4px solid #ff6b6b;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #ffd93d;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .mystery-box {
+            background: #111;
+            border: 1px solid #333;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .question {
+            background: #0d1117;
+            border-left: 4px solid #00ff00;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 3px;
+        }
+
+        .question-title {
+            color: #00ff00;
+            font-weight: bold;
+            margin-bottom: 12px;
+            font-size: 1.1em;
+        }
+
+        .fun-fact {
+            color: #888;
+            font-style: italic;
+            margin: 20px 0;
+            padding: 15px;
+            background: #0a0a0a;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .research-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 2px solid #444;
+        }
+
+        .research-item strong {
+            color: #00aaff;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            color: #ffd93d;
+            font-weight: bold;
+        }
+
+        .chat-box {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border: 1px solid #00ff00;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
+        }
+
+        .chat-box p {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .chat-button {
+            background: #00ff00;
+            color: #0a0a0a;
+            border: none;
+            padding: 12px 30px;
+            font-family: 'Courier New', monospace;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .chat-button:hover {
+            background: #00aa00;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .ascii-art {
+            color: #00ff00;
+            font-size: 0.8em;
+            line-height: 1.2;
+            margin: 30px 0;
+            text-align: center;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+
+        .blink {
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0.3; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arman Hatami</h1>
+        <div class="subtitle">PhD Student @ Johns Hopkins University | NeuroAI Researcher</div>
+        <div class="fun-fact">"Breaking down intelligence, one token at a time... or should I say, one neuron?" 🧠</div>
+        <div class="contact">
+            <a href="mailto:ahatami2@jh.edu">📧 Email</a>
+            <a href="https://github.com/armanhatami" target="_blank">💻 GitHub</a>
+            <a href="https://linkedin.com/in/arman-hatami" target="_blank">🔗 LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=n2_BtRMAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Who Am I? 🤔</h2>
+        <div class="mystery-box">
+            <p>I'm a PhD student at Johns Hopkins University working in the <span class="highlight">NeuroAI</span> field under Prof. Ilya Monosov. I completed my Master's in ECE at JHU (supervised by Prof. Mahyar Fazlyab) and my Bachelor's at Amirkabir University of Technology with a nearly perfect GPA (I was a good student and bad researcher; now I want to be the opposite LOL).</p>
+            
+            <p>My research focuses on making AI systems more robust, interpretable, and... well, actually intelligent. I work on LLM optimization, unlearning, fine-tuning, and the intersection of neuroscience and artificial intelligence. </p>
+            
+            <p class="fun-fact">🎯 Fun fact: I ranked top 2% among 140,000+ participants in Iran's National Exam. Either I'm pretty good at tests, or 139,200 people had a really bad day.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Research Interests 🔬</h2>
+        <ul>
+            <li><span class="highlight">NeuroAI</span> - Because brains have been doing it right for millions of years</li>
+            <li><span class="highlight">LLM Optimization & Fine-Tuning</span> - Making models smarter, not just larger</li>
+            <li><span class="highlight">Deep Reinforcement Learning</span> - Teaching agents to make decisions (hopefully better than humans)</li>
+            <li><span class="highlight">Medical Image Analysis</span> - OCT imaging, MS diagnosis, because AI should help people</li>
+            <li><span class="highlight">Machine Unlearning</span> - Teaching models to forget (yes, really)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>The Big Questions 🌌</h2>
+        <p style="color: #888; margin-bottom: 25px;">These questions keep me up at night. If they keep you up too, let's talk.</p>
+
+        <div class="question">
+            <div class="question-title">Question 1: What Happened to the Turing Test?</div>
+            <p>We said if an agent passes the Turing Test, it's intelligent. Now, in the era of large language models, we've basically achieved that. What happened? Most of us believe LLMs are not intelligent; they're just next-token predictors.</p>
+            
+            <p><span class="highlight">So what is the REAL test?</span> Where can we draw the line and say "this is enough, this agent is actually intelligent"? What's the bar that would convince most of us that a model is trustable at the same level as a human on crucial tasks?</p>
+            
+            <p><strong>My hypothesis:</strong> Perhaps it's the ability to <span class="highlight">divide and join subtasks</span>. If an agent can break down a problem into the most basic subtasks (where we can't decompose further) AND do the reverse; building up from basics until it reaches complex tasks; maybe THEN we can call it intelligent.</p>
+            
+            <p>For example: If an agent can explain how to build a bridge starting from F = ma, reasoning through statics, materials science, structural engineering, and finally bridge construction... that's hierarchical reasoning. That's understanding. That's what we're missing.</p>
+        </div>
+
+        <div class="question">
+            <div class="question-title">Question 2: Beyond AGI; What About the Unknown Unknowns?</div>
+            <p>Everyone's racing toward AGI; a model that performs as well as the best humans in all domains. But that's still a <span class="highlight">limit</span>. Even if we reach AGI, we're still confined to domains that humans know about.</p>
+            
+            <p><strong>For Artificial Superintelligence (ASI)</strong>, we should aim to search in <span class="highlight">unprecedented domains</span>. How do we know there isn't something like physics or mathematics that we're completely unaware of? What if there's a theory that can explain everything, but we just don't know it exists?</p>
+            
+            <p>Too many possibilities for our limited human knowledge. <strong>So what can we do?</strong> How can we make a model that doesn't only rely on known domains? Can we reach an ASI that, based on observations (ours and its own), can explain all events in the universe without any experiments?</p>
+            
+            <p class="fun-fact">🤯 Essentially: Can we build an AI that discovers new fundamental fields of knowledge that humans haven't even conceived of yet?</p>
+        </div>
+    </section>
+
+    <div class="chat-box">
+        <p class="blink">🚀 Do these questions intrigue you?</p>
+        <p>Let's discuss intelligence, consciousness, ASI, or why my code works on localhost but not in production.</p>
+        <button class="chat-button" onclick="window.location.href='mailto:ahatami2@jh.edu?subject=Let\'s Talk About Intelligence'">Start a Conversation</button>
+    </div>
+
+    <section>
+        <h2>Recent Work 📝</h2>
+        <div class="research-item">
+            <strong>Constrained Entropic Unlearning: A Primal-Dual Framework for LLMs</strong><br>
+            <span style="color: #888;">NeurIPS 2025 (Accepted)</span><br>
+            Teaching models to forget while staying useful. It's harder than it sounds.
+        </div>
+
+        <div class="research-item">
+            <strong>Brain Inspired True Unlearning</strong><br>
+            <span style="color: #888;">Submitted to ICLR 2026 (zero chance to get accepted LOL)</span><br>
+          Have you ever thought about how we forget everything without doing anything? Cost-free! We spend too many resources to unlearn in large models, but the brain does it for free and we're sad about it :)
+        </div>
+    </section>
+
+    <section>
+        <h2>Internship Experience 💼</h2>
+        <p>I've worked on some pretty cool stuff:</p>
+        <ul>
+            <li><strong>JuneBrain</strong> - Built real-time eye-tracking for wearable OCT headsets (240 FPS, because eyes are fast)</li>
+            <li><strong>BrainChip</strong> - Squeezed object detection into 8MB SRAM for neuromorphic chips</li>
+            <li><strong>Vector Cam @ JHU</strong> - Few-shot mosquito species recognition (saving lives, one mosquito at a time)</li>
+            <li><strong>Loop Academy</strong> - Built cheating detection systems (sorry, students)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Random Facts 🎲</h2>
+        <div class="mystery-box">
+            <ul>
+                <li>I speak Persian (native), Kurdish (mother tongue), and English (trying my best I swear)</li>
+                <li>I have a minor in Economics because understanding markets is almost as complex as understanding neural networks (Always losing money to be honest)</li>
+                <li>I've been a TA for everything from VLSI Design to Data Mining to Operating Systems</li>
+                <li>I'm a reviewer for ICLR 2026 (yes, I read your papers)</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="ascii-art">
+        <pre>
+    ╔════════════════════════════════════════╗
+    ║  "The question isn't who will let me; ║
+    ║   it's who will stop me."             ║
+    ║                          - Arman      ║
+    ╚════════════════════════════════════════╝
+        </pre>
+    </div>
+
+    <footer>
+        <p>© 2025 Arman Hatami | Built with curiosity, stress, and existential questions about AI</p>
+        <p style="margin-top: 10px; font-size: 0.8em;">Last updated: When the models finally understand what intelligence means</p>
+    </footer>
+
+    <script>
+        // Easter egg: Console message
+        console.log("%c🤖 Inspecting the code, eh? I like your style.", "color: #00ff00; font-size: 16px; font-weight: bold;");
+        console.log("%cIf you're reading this, we should definitely talk. Email me at ahatami2@jh.edu", "color: #00aaff; font-size: 14px;");
+        console.log("%cP.S. - The real intelligence test is whether you can debug my production code at 3 AM.", "color: #ff6b6b; font-style: italic;");
+    </script>
+</body>
+</html>
